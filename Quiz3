@@ -1,0 +1,42 @@
+BEGIN
+--------------------------------------------------------------------
+1. What is the _mask value for LED1? 
+FIOxMASK2  value is 0x04 for LED1
+   What is the address of FIOSET?
+0x2009 C05A
+
+
+
+
+--------------------------------------------------------------------
+2. What is the RS232 Frame?
+RS232 frame is composed of a Start bit, followed by 8 data bits, and ends with a Stop bit.
+
+
+
+
+--------------------------------------------------------------------
+3. Explain the start and stop conditions of i2c?
+Start of I2C occurs on the falling edge of SDA while SCL is high, whereas the stop condition occurs on rising edge of SDA while SCL is high.  
+
+
+
+
+
+--------------------------------------------------------------------
+4. Is the i2c acknowledge SDA LOW or SDA HIGH?
+Slave will pull SDA low to indicate ACK.
+
+
+
+
+
+--------------------------------------------------------------------
+5. Tell me about the DDR3 write leveling Concept in one sentence.  
+   (ref: slides)
+The write leveling is used to align clock and data signals by introducing delays.
+
+
+
+
+END
